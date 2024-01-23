@@ -28,6 +28,7 @@ function Navbar() {
                     </div>
 
                     <div className='grid place-items-end items-center'>
+                        <Link to='/cadastroCategoria' className="hover:text-blue-300 font-bold">Cadastrar Categoria</Link>
                         <Link to='' className="hover:text-blue-300 font-bold">Carrinho</Link>
                     </div>
 

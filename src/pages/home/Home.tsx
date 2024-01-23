@@ -1,6 +1,8 @@
+import ListaCategorias from "../../components/categorias/listaCategoria/ListaCategorias"
+
 function Home() {
-  return (
-    <>
+    return (
+        <>
             {/* Background */}
             <div id="container" className='flex justify-center bg-gray-900'>
 
@@ -26,12 +28,16 @@ function Home() {
                     </div>
                 </div>
 
-                {/* Catalogo */}
 
 
             </div>
+
+            {/* Catalogo */}
+            <>
+                <ListaCategorias />
+            </>
         </>
-  )
+    )
 }
 
 export default Home

@@ -4,6 +4,8 @@ import Navbar from './components/navbar/Navbar'
 import Home from './pages/home/Home'
 import Footer from './components/footer/Footer'
 import Menu from './components/menu/Menu'
+import FormCategoria from './components/categorias/formCategoria/FormCategoria'
+import DeletarCategoria from './components/categorias/deletarCategoria/DeletarCategoria'
 
 function App() {
 
@@ -16,13 +18,14 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/home" element={<Home />} />
+              <Route path='/cadastroCategoria' element={<FormCategoria/>}/>
+              <Route path="/editarCategoria/:id" element={<FormCategoria/>} />
+              <Route path="/deletarCategoria/:id" element={<DeletarCategoria />} />
 
-              {/*<Route path='/cadastro' element={<Cadastro />} />
+              {/*
               <Route path='/postagem' element={<Postagem />} />
               <Route path='/temas' element={<ListaTemas />} />
-              <Route path="/cadastroTema" element={<FormularioTema />} />
-              <Route path="/editarTema/:id" element={<FormularioTema />} />
-              <Route path="/deletarTema/:id" element={<DeletarTema />} />*/}
+              */}
 
             </Routes>
           </div>
