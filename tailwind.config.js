@@ -10,3 +10,9 @@ export default {
   plugins: [],
 }
 
+/** CORES
+ * Green-400
+ * Blue-500
+ * Rose-600
+ * Grey-900
+ */
